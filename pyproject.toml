@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "plotty"
+version = "0.2.0"
+description = "A matplotlib example"
+authors = ["Trifan Grigore-Gabriel <trifangaby71@protonmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.3.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
