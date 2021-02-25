@@ -7,3 +7,4 @@ def render():
     plt.title("Price evolution")
     plt.ylabel("$")
     plt.show()
+render()
